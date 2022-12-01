@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class TodoEntity {
+public class TodoModel {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
